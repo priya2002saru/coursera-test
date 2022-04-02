@@ -1,34 +1,69 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="style.css">
-	<meta charset ="utf-8">
-	<meta name="viewport" content="width=device-width, initial scale=1">
-	<title> module 2 solution</title>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-	<h1>Our Menu</h1>
-	<div class 'box'>
-		<div class ="col-lg-4 col-md-6 sx-12">
-			<div class="section">
-				<span id='pp1'>Chicken</span>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,sed do eiusmod tempor incididunt ut labre et dolore magna aliqua.ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-</p>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#" >Food, LLC</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+
+      <ul class="nav navbar-nav navbar-right" >
+        <li style>
+        <a href="#" >
+        <span class="glyphicon glyphicon-cutlery"></span> chicken</a>
+        </li>
+        <li>
+        <a href="#" >
+        <span class="glyphicon glyphicon-info-sign"></span> beef</a>
+        </li>
+        <li>
+        <a href="#">
+        <span class="glyphicon glyphicon-certificate"></span> sushi</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<br>
+<br>
+<h1><p class="text-center">Our Menu</p></h1>
+
+
+<div id="main-content" class="container">
+  <div id="home-tiles" class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+
+            <p id="chickstory">
+          <h2>Chicken</h2>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris est felis, rhoncus ac nunc quis, aliquet consectetur neque. Vestibulum placerat enim eu nisl sollicitudin aliquet. Nunc at tortor sed enim congue blandit. Proin at elit et ligula aliquet sollicitudin a quis risus. Fusce facilisis, ex a elementum ultrices, quam sem dictum leo, a laoreet lorem nunc vitae ligula. Nam at ultrices ligula, sed interdum leo. Ut orci neque, tristique quis ante sit amet, scelerisque condimentum velit. Sed a felis ligula. Phasellus mollis consequat nisi eu vestibulum. Duis suscipit orci vitae interdum sodales.
+
+Sed dignissim nulla libero, ac pulvinar massa fringilla ac. Sed a lectus eu felis pharetra faucibus ut et massa. Morbi vitae sagittis elit, sit amet eleifend nunc. Maecenas fringilla rhoncus convallis. Pellentesque tincidunt feugiat ligula at semper. Cras quis urna a justo tempus accumsan. Mauris quis vehicula tellus, nec dignissim nisl. Integer ante augue, dictum imperdiet efficitur vitae, posuere ac lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut gravida imperdiet felis bibendum fringilla. Vivamus lectus quam, semper ac iaculis nec, tempus vitae enim. Fusce luctus vulputate quam. Pellentesque vehicula, sem nec pellentesque maximus, libero lectus venenatis sapien, et posuere quam nisi id sem. Maecenas sit amet vehicula nisi. Mauris tellus nisl, pellentesque id condimentum in, posuere id massa. Pellentesque nec ex posuere, vehicula turpis sed, tempor magna.
+
+Morbi lacinia mauris sed lacus efficitur, nec accumsan felis eleifend. Donec ut augue odio. Vivamus sit amet lacus rhoncus ligula blandit feugiat in at nulla. Sed nec suscipit mauris. Etiam ut rutrum nunc. Vivamus luctus orci odio, quis eleifend nunc lobortis vitae. Quisque sodales, nunc et facilisis pharetra, dui ex fermentum elit, nec varius est turpis in justo. Aliquam sagittis pellentesque nunc sit amet hendrerit. Morbi eu interdum orci, sit amet luctus justo. Ut pulvinar aliquam sagittis. In sapien dolor, facilisis auctor elementum vel, feugiat sed ante.
+
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque neque quam, rutrum vitae magna nec, elementum facilisis orci. Donec posuere nibh sed sapien bibendum luctus. Etiam vitae velit vulputate lectus imperdiet imperdiet eu quis ex. Ut facilisis nisi ac elementum ultrices. Sed mollis euismod bibendum. Nullam laoreet urna sed molestie gravida. Morbi enim eros, finibus sed venenatis vitae, scelerisque sed est.
+
+Vestibulum elementum commodo magna. Nunc fermentum mattis accumsan. Sed ultricies tempus metus vel fermentum. Proin at risus dolor. Praesent sed orci vehicula, bibendum eros vel, cursus arcu. Nullam eu lacus libero. Maecenas eu ante vehicula sem gravida pulvinar et at ante.
+            </p>
+      </div>
+    </div>
 </div>
-</div>
-<div class="col-lg-4 col-md-6 sx-12">
-	<div class="section">
-		<span id='pp2'>Beef</span>
-		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,sed do eiusmod tempor incididunt ut labre et dolore magna aliqua.ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-	</div>
-	</div>
-	<div class="col-lg-4 col-md-6 sx-12">
-		<div class="section">
-			<span id='pp3'>sushi</span>
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,sed do eiusmod tempor incididunt ut labre et dolore magna aliqua.ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-			</p>
-		</div>
-	</div>
-</div>
+
 </body>
 </html>
